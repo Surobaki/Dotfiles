@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Olivia's xprofile
+
+export MONITOR=$(polybar -m|tail -1|sed -e 's/:.*$//g')
+
+# Useful tool: my default localectl command
+# sudo localectl --no-convert set-x11-keymap us,sk,ru pc86 altgr-intl,qwerty,phonetic_winkeys grp:lalt_lshift_toggle,lv3:ralt_switch,caps:escape_shifted_capslock,compose:rctrl,terminate:ctrl_alt_bksp
+
